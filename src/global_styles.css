@@ -3,13 +3,13 @@ section.card2 {
     background: #e3a3e3;
     padding: 0.5rem;
 
-    h2 {
+    & h2 {
         color: darkblue;
     }
-    p {
-        letter-spacing: 1;
+    & p {
+        letter-spacing: 0.025rem;
     
-        span {
+        & span {
             font-weight: bold;
         }
     }
